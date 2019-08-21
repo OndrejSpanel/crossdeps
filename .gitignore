@@ -1,4 +1,8 @@
 /target/
 /project/target/
+/project/project/target/
 /.idea/
 
+/js/target/
+/jvm/target/
+/shared/target/

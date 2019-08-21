@@ -1,13 +1,13 @@
 import org.scalatest._
 
-class JSTest extends FunSuite {
+class JVMTest extends FunSuite {
 
   test("Do nothing") {
     assert(true)
   }
   test("Say hello") {
     assert(true)
-    info("Hello from Scala.js")
+    info("Hello from Scala.jvm")
   }
   test("Use shared code") {
     val name = Shared.libName

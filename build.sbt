@@ -1,5 +1,8 @@
-name := "CrossDeps"
+lazy val commonSettings = Seq(
+  name := "CrossDeps",
+  version := "0.1",
+  scalaVersion := "2.12.9",
+  scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
+)
 
-version := "0.1"
-
-scalaVersion := "2.12.9"
+lazy val jvm = project.settings(commonSettings)
